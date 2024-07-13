@@ -1,0 +1,94 @@
+
+
+body {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #a0f5e2;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 100px;
+  color: #584819;
+  font-weight: 400;
+  /* font-style: italic; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #16ee16;
+ border-radius: 5cap;
+ border-color: #18150c;
+
+  
+}
+
+input {
+  font-size: 20px;
+  color: #13191f;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #2c3e50;
+  padding: 10px;
+  background-color: #a0f5e2;
+}
+
+.task {
+  background-color: #34495e;
+  padding: 15px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task span {
+  color: white;
+  text-shadow: #23ec23;
+  font-weight:5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article {
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: #110202;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button.selected {
+  color: #FFF;
+  background-color: #6c6777;
+}
+
+.button.clear {
+  float: right;
+  color: #FFF;
+  background-color: #ee1630;
+  width: 170px;
+}
